@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About Me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Reuben Gazer and am a 24 year old astrophysics enthusiast and science educator. I recently graduated from the University of Alberta (MSc. Astrophysics), where my research areas lie in stellar and computational astrophysics. I am an avid public science speaker, both in public and private venues. I currently tutor > 15 different students University-level physics, chemistry, mathematics and astronomy and am currently developing a cogent set of lecture notes for the topics which I frequently teach. Stay tuned!
 
-- I rock a great mustache
-- I'm extremely loyal to my family
 
-What else do you need?
+Besides my STEM activies, I have a range of interests, hobbies and skills that include (but are not limited to): 
 
-### my history
+- Software development
+- Playing Ice Hockey, Squash, Ultimate Frisbee and Rockclimbing
+- Magic (www.gazertheamazer.com)
+- Writing, Producing and Recording Music
+- Jazz Trumpet
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
