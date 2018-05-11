@@ -71,7 +71,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "gazer@ualberta.ca"
   github: reubengazer
   linkedin: reubengazer
@@ -128,7 +128,7 @@ url-pretty: "reubengazer.com/blog"  # eg. "deanattali.com/beautiful-jekyll"
 excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
-# and RSS feed title
+# and feed title
 title-separator: "-"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
