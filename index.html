@@ -4,6 +4,39 @@ title: Reuben's Corner
 subtitle: A Place for Physics, Math and Data Talk
 use-site-title: true
 ---
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+<h2>Here are some of my thoughts on...</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#54c6ff;">
+    <h2>Physics</h2>
+    {% for post in site.categories.Physics %}
+     <li type="square"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+  </div>
+  <div class="column" style="background-color:#54c6ff;">
+    <h2>Mathematics</h2>
+    <p>Some text..</p>
+  </div>
+  <div class="column" style="background-color:#54c6ff;">
+    <h2>Data</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>
+
+
 <h3><strong>Physics</strong></h3>
 <br />
 {% for post in site.categories.Physics %}
