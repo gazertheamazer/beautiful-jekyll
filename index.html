@@ -36,19 +36,19 @@ use-site-title: true
   <div class="column"> 
     <h2 style="text-align:center">Physics</h2>
     {% for post in site.categories.Physics %}
-      <span>{{ post.date | date_to_string }}</span> {br} <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date_to_string }}</span> {br /} <a href="{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
   </div>
   <div class="column"> 
     <h2 style="text-align:center">Math</h2>
     {% for post in site.categories.Math %}
-      <span>{{ post.date | date_to_string }}</span> {br} <a href="{{ post.url }}">{{ post.title }}</a> 
+      <span>{{ post.date | date_to_string }}</span> {br /} <a href="{{ post.url }}">{{ post.title }}</a> 
     {% endfor %}
   </div>
   <div class="column"> 
     <h2 style="text-align:center">Data</h2>
     {% for post in site.categories.Data %}
-      <span>{{ post.date | date_to_string }}</span> {br} <a href="{{ post.url }}">{{ post.title }}</a>
+      <span>{{ post.date | date_to_string }}</span> {br /} <a href="{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
   </div>
 </div>
