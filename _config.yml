@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Reuben S. Gazer
+title: Reuben Gazer's Physics, Math & Data Blog
 
 # Short description of your site
 description: Reuben Gazer's Physics, Math & Data Blog
@@ -23,6 +23,7 @@ description: Reuben Gazer's Physics, Math & Data Blog
 
 # List of links in the navigation bar
 navbar-links:
+  Categories: "categories"
   About Me: "aboutme"
   #For Students: 
   #Resources:
