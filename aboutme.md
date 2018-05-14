@@ -11,6 +11,6 @@ I have a range of interests, hobbies and skills that include (but are not limite
 - Software development
 - Writing, Producing and Recording Music
 - Playing Ice Hockey, Squash, Ultimate Frisbee and Rockclimbing
-- Magic <a href="www.gazertheamazer.com">(need a magician? Hire me!)</a>
+- Magic <a href="https://www.gazertheamazer.com">(need a magician? Hire me!)</a>
 - Jazz Trumpet
 
