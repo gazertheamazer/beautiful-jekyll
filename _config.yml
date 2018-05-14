@@ -25,6 +25,7 @@ description: Reuben Gazer's Physics, Math & Data Blog
 navbar-links:
   Categories: "categories"
   About Me: "aboutme"
+  Talks: "talks"
   #For Students: 
   #Resources:
   #  - WolframAlpha: "http://www.wolframalpha.com/"
