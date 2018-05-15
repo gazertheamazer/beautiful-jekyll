@@ -14,21 +14,23 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Reuben Gazer: Physics, Math & Data Science
+title: Reuben Gazer's Physics, Math & Data Blog
 
 # Short description of your site
-description: A Quiet Place for my Curiosities
+description: Reuben Gazer's Physics, Math & Data Blog
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
+  Categories: "categories"
   About Me: "aboutme"
+  Talks: "talks"
+  #For Students: 
   #Resources:
-  #  - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+  #  - WolframAlpha: "http://www.wolframalpha.com/"
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #  - GitHub Pages: "https://pages.github.com/"
-  #Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -42,22 +44,22 @@ avatar: "/img/headshot.jpg"
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
+navbar-col: "#54c6ff"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
 page-col: "#FFFFFF"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#F5F5F5"
+footer-col: "#54c6ff"
 footer-text-col: "#777777"
 footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
- navbar-img: "/img/websiteheaderimage.jpg"
+# navbar-img: "/img/websiteheaderimage.jpg"
 # footer-img: "/img/bgimage.png"
-# page-img: "/img/bgimage.png"
+# page-img: "/img/websiteheaderimage.jpg"
 
 # --- Footer options --- #
 
@@ -71,7 +73,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  rss: false
   email: "gazer@ualberta.ca"
   github: reubengazer
   linkedin: reubengazer
@@ -118,7 +120,7 @@ url-pretty: "reubengazer.com/blog"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "reubengazer"
 
 # Facebook App ID
 # fb_app_id: ""
@@ -128,7 +130,7 @@ url-pretty: "reubengazer.com/blog"  # eg. "deanattali.com/beautiful-jekyll"
 excerpt_length: 50
 
 # Character used to separate site title and description in HTML document title
-# and RSS feed title
+# and feed title
 title-separator: "-"
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
@@ -137,7 +139,8 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:categories/:title/
+#permalink: /:year-:month-:day-:title/
 paginate: 5
 
 kramdown:
@@ -232,3 +235,5 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
+
+theme: jekyll-theme-cayman
