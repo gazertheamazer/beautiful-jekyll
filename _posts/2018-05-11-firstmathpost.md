@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Visualizing F.O.I.L. with Rectangles
-subtitle: What is (a+b) Squared Anyways?
+subtitle: What is $(a+b)^{2}$ Squared Anyways?
 categories: Math
-
+---
 <html>
   <head>
   <script type="text/javascript" async
@@ -18,7 +18,6 @@ categories: Math
   <script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
   </head>
 </html>
----
 
 In high school, we commonly learns the 'FOIL' technique to multiply two binomials together, like this:
 
