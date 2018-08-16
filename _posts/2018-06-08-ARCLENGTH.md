@@ -11,16 +11,19 @@ If you were shown a wiggly rope like this:
 ![Simple Square](/img/Square.png) 
 
 How could you compute the total LENGTH $L$ of the wiggly rope?
-If you had the rope in front of you now, you could simply straighten the rope and lay it beside a measuring tape.
-How could we do this _without_ straightening it?
+If you had the rope in front of you now, you could straighten the rope and lay it beside a meter/yard stick.
+But how could we do this _without_ straightening it?
 
-If the wiggly rope makes a particular shape that can be described by a function $f(x)$, the total length of the wiggly rope is the _arc length_ of the function $f(x)$ from the beginning to the end of the rope.
-Given some (potentially wiggly) function $f(x)$, the total length of the rope is simply the sum of all the small little lengths of rope $\Delta L$ along the way.
-We can approximate each little length of rope by a straight line, assuming we use really small bits like this:
-(show image with little tiny steps along the way)
-To justify this, any part of a wiggly rope looks flat if you zoom in close enough.
+**To figure out the length of a wiggly rope, we compute the _arc length_ of the rope.**
+
+The wiggly rope makes _some_ particular shape that, when laid on the Cartesian plane, can be described by a function $f(x)$.
+The total length of the rope (or function $f(x)$) can be viewed as a simple sum of all the small little lengths of rope $\Delta$$L$ along the way.
 Then, the total length $L$ is "the sum of all $\Delta L$ pieces from the beginning to the end of the rope".
-Each $Delta L$ is of length:
+
+The key to the arc length formula is the Pythagorean Theorem. 
+Clearly, building a wiggly rope out of small, straight segments produces some error, for the rope is definitely _not_ actually built of straight segments, it is a curve!
+As long as we treat each of these pieces as _very, very small_, we can use some introductory calculus to compute the _exact_ arc length of the rope, with no error. 
+Here is a zoomed-in image of a small, straight line segment approximating our rope.
 
 
 
@@ -35,11 +38,11 @@ This question has two answers, depending on what we mean by the phrase _how far_
 
 Let's take a look at the trajectory of the ball. 
 (insert image!)
-Do we want to compute how far the ball is _from us when it lands_ (the **displacement**) or how far the ball travelled _along it's total flight path_ (the **distance**). 
+Do we want to compute how far the ball is _from us when it lands_ (the **displacement**) or how far the ball travelled _along its total flight path_ (the **distance**). 
 The (horizontal) displacement of the ball is referred to as the _range_ (like the range of an artillery shell) and can be computed quite easily using any of the projectile-motion equations.
 
 The total distance of the flight path is (slightly) less trivial.
-The distance is how many meters did travelled along it's entire path: ie. the number of steps on the ball's FitBit, or the number of meters shown on its odometer.
+The distance is how many meters did travelled along its entire path: ie. the number of steps on the ball's FitBit, or the number of meters shown on its odometer.
 
 {: .box-note} 
 The total distance travelled along the parabola is called the **arc length** of $y = f(x)$.
